@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen px-6 py-10">
+    <main className="px-6 py-10">
       <section className="mb-12">
         <p className="mb-2 text-sm uppercase tracking-wide">Local coffee shop in the neighborhood</p>
         

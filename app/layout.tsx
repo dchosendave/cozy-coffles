@@ -29,15 +29,15 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-screen">
-        <header className="border-b border-border">
+        <header className="border-b border-border bg-background">
           <nav aria-label="main-navigation" className="site-container flex items-center justify-between py-4">
-            <Link href="/" className="font-bold">Cozy Coffles</Link>
+            <Link href="/" className="text-lg font-bold text-primary">Cozy Coffles</Link>
 
-            <div className="flex gap-4">
-              <Link href="/menu">Menu</Link>
-              <Link href="/visit">Visit</Link>
-              <Link href="/contact">Contact</Link>
-              <Link href="/about">About</Link>
+            <div className="flex gap-4 text-sm font-medium text-muted">
+              <Link href="/menu" className="hover:text-primary">Menu</Link>
+              <Link href="/visit" className="hover:text-primary">Visit</Link>
+              <Link href="/contact" className="hover:text-primary">Contact</Link>
+              <Link href="/about" className="hover:text-primary">About</Link>
             </div>
 
           </nav>
