@@ -10,7 +10,7 @@ This plan follows the project learning mode: make small, understandable changes,
 - `/contact` from `app/contact/page.tsx`: empty.
 - `/about` from `app/about/page.tsx`: empty.
 - Shared layout from `app/layout.tsx`: header and navigation exist.
-- Global styles from `app/globals.css`: Tailwind import plus basic theme defaults.
+- Global styles from `app/globals.css`: Tailwind import plus warm coffee shop theme tokens.
 
 ## Phase 0: Shared Foundation
 
@@ -21,13 +21,13 @@ Files:
 
 Goal: make the whole site feel like one warm coffee shop brand before filling every page.
 
-Implementation ideas:
+Implementation checklist:
 
-- Create a consistent page width and spacing pattern.
-- Improve the header and navigation styling.
-- Choose warmer background, text, border, and accent colors.
-- Add reusable-looking button and link styles.
-- Keep the layout mobile-first and readable.
+- [ ] Create a consistent page width and spacing pattern.
+- [ ] Improve the header and navigation styling.
+- [x] Choose warmer background, text, border, and accent colors.
+- [ ] Add reusable-looking button and link styles.
+- [ ] Keep the layout mobile-first and readable.
 
 Learning focus:
 

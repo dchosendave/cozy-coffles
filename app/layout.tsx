@@ -29,8 +29,8 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-screen">
-        <header className="border-b px-6 py-4">
-          <nav aria-label="main-navigation" className="flex items-center justify-between">
+        <header className="border-b border-border">
+          <nav aria-label="main-navigation" className="site-container flex items-center justify-between py-4">
             <Link href="/" className="font-bold">Cozy Coffles</Link>
 
             <div className="flex gap-4">

@@ -1,6 +1,6 @@
 export default function Visit() {
     return (
-        <main className="px-6 py-10">
+        <main className="site-container page-spacing">
             <section className="mb-10">
                 <p className="mb-2 text-sm uppercase tracking-wide">Visit us</p>
                 <h1 className="mb-4 text-4xl font-bold">Come by for coffee and waffles.</h1>

@@ -41,3 +41,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+  .site-container {
+    width: min(100% - 2rem, 72rem);
+    margin-inline: auto;
+  }
+
+  .page-spacing {
+    padding-block: 2.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .site-container {
+      width: min(100% - 3rem, 72rem);
+    }
+
+    .page-spacing {
+      padding-block: 4rem;
+    }
+  }
+}
